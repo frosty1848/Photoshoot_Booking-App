@@ -32,7 +32,7 @@ export default function Info({navigation}){
             </TouchableOpacity>
         </View>
         <View style={{marginBottom:10, marginTop: 10, alignItems:"center"  }}>
-            <Text style={{fontSize:30, color:"white",}}>How we Operate</Text>
+            <Text style={{fontSize:25, color:"white",}}>How we Operate</Text>
         </View>
             <ScrollView>
                 <View style={styles.Workings}>
@@ -51,9 +51,10 @@ export default function Info({navigation}){
                     <Text style={styles.workText2}>Photos will be enhanced by our professional editors and will be distributed to you within 24 hours. How 'bout that</Text>
                     <Image source={receive} style={{resizeMode:"contain"}}/>
                 </View>
+
+                <Text color="white">Experience Photography in a new dimension!</Text>
             </ScrollView>
 
-            <Text>Experience Photography in a new dimension</Text>
         </View>
     );
 
@@ -71,13 +72,13 @@ export default function Info({navigation}){
             marginHorizontal: 10,
             marginTop: 15,
             backgroundColor: "#868c06",
-            borderRadius: 15,
+            borderRadius: 18,
             padding: 5,
             paddingHorizontal: 5,
           },
 
         categoriesText: {
-            fontSize:20,
+            fontSize:15,
             color: "white"
 
         },
@@ -90,6 +91,7 @@ export default function Info({navigation}){
             fontSize:24,
             color:"white",
             marginBottom: 10,
+            fontStyle : "italic",
             
 
         },
