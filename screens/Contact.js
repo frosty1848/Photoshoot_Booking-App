@@ -5,7 +5,7 @@ import { ScrollView } from 'react-native-gesture-handler';
 import { Ionicons } from '@expo/vector-icons';
 import { MaterialIcons } from '@expo/vector-icons';
 import { Entypo } from '@expo/vector-icons';
-import call from 'react-native-phone-call';
+import call  from 'react-native-phone-call';
 
 
 
