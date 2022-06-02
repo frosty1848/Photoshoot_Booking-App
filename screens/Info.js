@@ -6,6 +6,8 @@ import shoot from "../assets/shoot.jpg";
 import booking from "../assets/booking.jpg";
 import receive from "../assets/receive.jpg";
 import Package from './Package';
+import Signup from './Signup';
+import Contact from './Contact';
 
 
 
@@ -17,7 +19,7 @@ export default function Info({navigation}){
         <View style={{backgroundColor:"#16181c", width:"100%", alignContent:"center", justifyContent:"center" }}>
 
         <View style={{marginTop:"5%", width:"100%", flexDirection:"row", marginBottom: 3, justifyContent:"space-around"}}> 
-            <TouchableOpacity style={styles.categories}>
+            <TouchableOpacity style={styles.categories} onPress={()=>{navigation.navigate("Contact")}} >
               <Text style={styles.categoriesText}>Contact</Text>
             </TouchableOpacity>
 
@@ -25,8 +27,8 @@ export default function Info({navigation}){
               <Text style={styles.categoriesText}>Packages</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.categories}>
-              <Text style={styles.categoriesText}>Sign In</Text>
+            <TouchableOpacity style={styles.categories} onPress={()=>{navigation.navigate("Signup")}} >
+              <Text style={styles.categoriesText}>Sign up</Text>
             </TouchableOpacity>
         </View>
         <View style={{marginBottom:10, marginTop: 10, alignItems:"center"  }}>
@@ -51,7 +53,7 @@ export default function Info({navigation}){
                 </View>
             </ScrollView>
 
-            <Text>Experience Photography n a new dimension</Text>
+            <Text>Experience Photography in a new dimension</Text>
         </View>
     );
 

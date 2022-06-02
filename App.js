@@ -5,6 +5,9 @@ import {NavigationContainer} from '@react-navigation/native';
 import Welcome from "./screens/Welcome";
 import Info from "./screens/Info";
 import Package from "./screens/Package";
+import Contact from './screens/Contact';
+import Signup from './screens/Signup';
+
 
 export default function App() {
   
@@ -17,6 +20,11 @@ export default function App() {
           <MainNavigator.Screen name='Welcome' component={Welcome} />
           <MainNavigator.Screen name='Info' component={Info} />
           <MainNavigator.Screen name='Package' component={Package} />
+          <MainNavigator.Screen name='Contact' component={Contact} />
+          <MainNavigator.Screen name='Signup' component={Signup} />
+
+
+
         </MainNavigator.Navigator>
       </NavigationContainer>
       
