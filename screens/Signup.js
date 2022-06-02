@@ -280,6 +280,7 @@ const styles = StyleSheet.create({
       flex: 1,
       padding: 16,
       paddingBottom: 100,
+      backgroundColor: "#fff"
     },
     header: {
       fontSize: 36,
@@ -301,7 +302,7 @@ const styles = StyleSheet.create({
       fontSize: 10,
     },
     btnContainer: {
-      backgroundColor: "white",
+      backgroundColor: "#fff",
       marginTop:36,
     }
   });

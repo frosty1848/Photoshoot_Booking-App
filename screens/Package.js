@@ -36,14 +36,14 @@ export default function Package(){
     return(
         <View style={{flex:1, backgroundColor:"#16181c"}}>
             <View style={{marginTop:"10%", alignItems:"center", marginBottom: 20}}>
-                <Text style={{color:"blue", fontSize:25}}>we got you <Text style={{color:"white", }}> Covered!</Text> </Text>
+                <Text style={{color:"#ADD8E6", fontSize:20}}>We got you <Text style={{color:"white", fontStyle: "italic"}}> Covered!</Text> </Text>
 
             </View>
             <ScrollView>
                 <View style={{height:400, marginBottom: 10}}>
                     <Image source={adultface} style={{ height:400, width:"100%"}}/>
                     <View style={styles.absolute}>
-                        <Text style={{color:"white", fontSize:20}}>ADULT PHOTOS</Text>
+                        <Text style={{color:"white", fontSize:20, fontStyle:"italic"}}>ADULT PHOTOS</Text>
                         <OpenURLButton url={supportedURL}>10 Photos for GHC750</OpenURLButton>
                     </View>
 
@@ -52,7 +52,7 @@ export default function Package(){
                 <View style={{height:400, marginBottom: 10}}>
                     <Image source={babyphoto} style={{ height:400, width:"100%"}}/>
                     <View style={styles.absolute}>
-                        <Text style={{color:"white", fontSize:20}}>BABY PHOTOS</Text>
+                        <Text style={{color:"white", fontSize:20, fontStyle:"italic"}}>BABY PHOTOS</Text>
                         <OpenURLButton url={supportedURL}>10 Photos for GHC750</OpenURLButton>
                     </View>
 
@@ -60,7 +60,7 @@ export default function Package(){
                 <View style={{height:400, marginBottom: 10}}>
                     <Image source={family} style={{ height:400, width:"100%"}}/>
                     <View style={styles.absolute}>
-                    <Text style={{color:"white", fontSize:20}}>FAMILY PHOTOS</Text>
+                    <Text style={{color:"white", fontSize:20,fontStyle:"italic"}}>FAMILY PHOTOS</Text>
                         <OpenURLButton url={supportedURL}>10 Photos for GHC900</OpenURLButton>
                     </View>
 
@@ -68,7 +68,7 @@ export default function Package(){
                 <View style={{height:400, marginBottom: 10}}>
                     <Image source={wedding} style={{ height:400, width:"100%"}}/>
                     <View style={styles.absolute}>
-                    <Text style={{color:"white", fontSize:20}}>WEDDING PHOTOS</Text>
+                    <Text style={{color:"white", fontSize:20,fontStyle:"italic"}}>WEDDING PHOTOS</Text>
                         <OpenURLButton url={supportedURL}>10 Photos for GHC650</OpenURLButton>
                     </View>
 
@@ -77,7 +77,7 @@ export default function Package(){
                     <Image source={birthday} style={{height:400, width:"100%"}}/>
 
                     <View style={styles.absolute}>
-                    <Text style={{color:"white", fontSize:20}}>BIRTHDAY PHOTOS</Text>
+                    <Text style={{color:"white", fontSize:20,fontStyle:"italic"}}>BIRTHDAY PHOTOS</Text>
                         <OpenURLButton url={supportedURL}>10 Photos for GHC550</OpenURLButton>
                     </View>
 

@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
     },
     welcomeText: {
-        fontSize:50,
+        fontSize:15,
         fontWeight: '400',
         marginVertical:5,
         color: "white"
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
         width: 230, 
         borderRadius: 10, 
         paddingHorizontal: 10,
-        padding: 10,
+        padding: 7,
         color: "white"
 
     },
@@ -79,6 +79,7 @@ const styles = StyleSheet.create({
         bottom: 0,
         color:"white",
         fontSize:20,
+        fontStyle: "italic"
       },
   });
 
