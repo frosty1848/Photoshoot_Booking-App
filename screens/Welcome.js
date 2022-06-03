@@ -45,8 +45,8 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       justifyContent: 'center',
     },
-    welcomeText: {
-        fontSize:15,
+    welcomeText:{
+        fontSize:20,
         fontWeight: '400',
         marginVertical:5,
         color: "white"
